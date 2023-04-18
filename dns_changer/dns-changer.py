@@ -12,6 +12,7 @@ class dnschanger(QWidget):
         self.status = QLabel()
         self.save_btn = QPushButton("Save")
         self.start_btn = QPushButton("Start Dns")
+        self.start_btn.setStyleSheet("background-color : green; color : white")
         self.stop_btn = QPushButton("Stop Dns")
         self.checkping_btn = QPushButton("Check ping")
         self.remove_btn = QPushButton("Remove")
