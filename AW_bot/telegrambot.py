@@ -73,7 +73,7 @@ async def forwardanime(update: Update, context: ContextTypes):
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(
-        '911488640:AAHggHUVw5boxuyi6TAX3qBc-ckGxJU-rz4').build()
+        'bot_token').build()
     
     
     
