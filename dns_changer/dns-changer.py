@@ -6,6 +6,7 @@ class dnschanger(QWidget):
     def __init__(self,parent=None):
         super().__init__(parent)
         self.dns_lists = QComboBox()
+
         self.dns_name = QLineEdit()
         self.dns_input1 = QLineEdit()
         self.dns_input2 = QLineEdit()
@@ -197,4 +198,3 @@ if __name__ == '__main__':
         
     win.show()
     sys.exit(app.exec_())
-        
